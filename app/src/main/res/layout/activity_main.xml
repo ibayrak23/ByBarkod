@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BarkodOku"
+        android:layout_width="231dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="105dp"
+
+        android:text="URUN OKU"
+        android:textIsSelectable="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.396" />
+
+    <Button
+        android:id="@+id/ekle"
+        android:layout_width="231dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="8dp"
+        android:text="MANUEL OKU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goster"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <Button
+        android:id="@+id/goster"
+        android:layout_width="231dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="188dp"
+        android:text="LİSTELE"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
